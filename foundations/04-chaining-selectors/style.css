@@ -1,0 +1,9 @@
+/* this is chainig of slectors. we use auto in order to keep the origianal value og height */
+.avatar.proportioned {
+height: auto;
+width: 300px;
+}
+.avatar.distorted{
+height: 400px;
+width: 200px;
+}
