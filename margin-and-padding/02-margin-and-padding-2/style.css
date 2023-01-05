@@ -38,7 +38,9 @@ button {
   display: block ;
   background: white;
   border: 8px solid white;
-  margin-left: 108px;
+  max-width: 600px;
+  margin: 0 auto;
+  /* margin-left: 108px;
   margin-bottom: 3px;
-  padding: 8px 24px 8px 24px;
+  padding: 8px 24px 8px 24px; */
 }
