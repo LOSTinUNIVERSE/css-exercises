@@ -5,7 +5,70 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  justify-content: space-between;
 }
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.left-links,.right-links {
+  display: flex;
+  /* gap:20px; */
+  list-style: none;
+  color: grey;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10 px;
+  margin-left: 10px;
+  gap: 20px;
+}
+.header,.footer > .right-links {
+  margin-right: 20px;
+}
+.links{
+  text-decoration: none;
+  padding: 10px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.buttons{
+  /* padding: 30px; */
+  display: flex;
+  justify-content: center;
+  /* background-color: yellowgreen; */
+  width: 300px;
+}
+button{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  height: 30px;
+  width: fit-content;
+  padding: 5px;
+  margin: 5px;
+}
+ 
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+/* .footer-container{ */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: ; */
+  /* justify-items: flex-end; */
+  /* justify-self: center; */
+/* } */
 
 img {
   width: 600px;
@@ -25,3 +88,4 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
