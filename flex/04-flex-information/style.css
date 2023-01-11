@@ -6,13 +6,54 @@ img {
   width: 100px;
   height: 100px;
 }
-
+.header {
+  display: flex;
+  align-items: flex-start;
+  /* background-color: aquamarine; */
+  border: 2px solid rgb(244, 244, 247);
+  flex-direction: column;
+  flex: 1;
+}
+.title-block{
+  /* background-color: cornflowerblue; */
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  /* background-color: turquoise; */
+  margin: 10px;
 }
+.images{
+  display: flex;
+  /* border: solid black 3px; */
+  /* min-width: fit-content  ; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* background-color: yellow; */
+  /* gap: 52px; */
+  /* flex-wrap: wrap; */
+  align-self: center;
+  width: 70%;
+}
+.images-block {
+  display: flex;
+  flex-direction: column;
+  /* background-color: brown; */
+  border: white 10px;
+  /* margin: 10px; */
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+}
+/* .text{
+  /* background-color: wheat;} */
 
-/* do not edit this footer */
+/* do not edit this footer */ */
 .footer {
   position: fixed;
   bottom: 0;
