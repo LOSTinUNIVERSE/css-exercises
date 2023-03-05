@@ -13,15 +13,11 @@ body {
   font-weight: 900;
   display: flex;
   justify-content: start;
-  align-content: center;
+  align-items: center;
   background: darkmagenta;
   color: white;
+  padding-left: 16px;
 }
-.heading{
-  display: flex;
-    align-self: center;
-    margin-left: 16px;
-  }
 .side-text{
   flex: 1;
   display: flex;
