@@ -66,24 +66,29 @@
   font-weight: normal;
   border-radius: 10px;
 }
-/*  */
-/*  */
-/* .sidebar .side-content { */
-  /* background-color: white; */
-  /* color: black; */
-  /* font-size: 16px; */
-  /* font-weight: normal; */
-/* } */
-/*  */
-/* .nav { */
-  /* background-color: #FF7755; */
-/* } */
-/*  */
-/* .nav ul li { */
-  /* font-size: 16px; */
-  /* text-transform: uppercase; */
-/* } */
-/*  */
+ 
+
+.sidebar .side-content {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.nav {
+  background-color: #FF7755;
+  grid-area: 2/2/3/-1;
+}
+
+.nav ul{
+  list-style: none;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-transform: uppercase;
+} 
+
+
 /* .article { */
   /* background-color: #bccbde; */
 /* } */
