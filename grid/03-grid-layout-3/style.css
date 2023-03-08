@@ -5,6 +5,9 @@
 
 .container {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 2fr 1fr repeat(4,4fr) 1fr;
 }
 
 .container div {
@@ -13,79 +16,99 @@
   font-family: Helvetica;
   font-weight: bold;
   color: white;
+  display: grid;
 }
 
 .header {
   background-color: #393f4d;
-}
+  grid-area: 1/1/2/-1;
+  grid-template-columns: 1fr 1fr ;
+  /* grid-template-rows: 2fr 1fr; */
+  /* justify-items: start; */
+  /* align-content: stretch; */
+  /* justify-content: ; */
+  /* justify-items: stretch; */
+  /* align-content: baseline; */
+  align-items: stretch;
+  }
 
 .menu ul,
 .menu li {
   font-size: 16px;
+  list-style: none;
 }
-
-.sidebar {
-  background-color: #FF7755;
-}
-
-.sidebar .photo {
-  background-color: white;
-  color: black;
-  font-size: 12px;
-  font-weight: normal;
-  border-radius: 10px;
-}
-
-
-.sidebar .side-content {
-  background-color: white;
-  color: black;
-  font-size: 16px;
-  font-weight: normal;
-}
-
-.nav {
-  background-color: #FF7755;
-}
-
-.nav ul li {
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
-.article {
-  background-color: #bccbde;
-}
-
-.article p {
-  font-size: 18px;
-  font-family: sans-serif;
-  color: white;
-  text-align: left;
-}
-
-.article .card {
-  background-color: #FFFFFF;
-  color: black;
-  text-align: center;
-}
-
-.card p {
-  color: black;
-  font-weight: normal;
-  font-size: 14px;
-}
-
-.card .title {
-  font-size: 18px;
-  text-align: center;
-}
-
-.footer {
-  background-color: #393f4d;
-}
-
-.footer p {
-  font-size: 13px;
-  font-weight: normal;  
-}
+  .menu ul{
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    align-items: center;
+    }
+  .menu {
+    /* justify-content: center; */
+  }
+/* .sidebar { */
+  /* background-color: #FF7755; */
+  /* grid-area: 2/1/-2/2; */
+/* } */
+/*  */
+/* .sidebar .photo { */
+  /* background-color: white; */
+  /* color: black; */
+  /* font-size: 12px; */
+  /* font-weight: normal; */
+  /* border-radius: 10px; */
+/* } */
+/*  */
+/*  */
+/* .sidebar .side-content { */
+  /* background-color: white; */
+  /* color: black; */
+  /* font-size: 16px; */
+  /* font-weight: normal; */
+/* } */
+/*  */
+/* .nav { */
+  /* background-color: #FF7755; */
+/* } */
+/*  */
+/* .nav ul li { */
+  /* font-size: 16px; */
+  /* text-transform: uppercase; */
+/* } */
+/*  */
+/* .article { */
+  /* background-color: #bccbde; */
+/* } */
+/*  */
+/* .article p { */
+  /* font-size: 18px; */
+  /* font-family: sans-serif; */
+  /* color: white; */
+  /* text-align: left; */
+/* } */
+/*  */
+/* .article .card { */
+  /* background-color: #FFFFFF; */
+  /* color: black; */
+  /* text-align: center; */
+/* } */
+/*  */
+/* .card p { */
+  /* color: black; */
+  /* font-weight: normal; */
+  /* font-size: 14px; */
+/* } */
+/*  */
+/* .card .title { */
+  /* font-size: 18px; */
+  /* text-align: center; */
+/* } */
+/*  */
+/* .footer { */
+  /* background-color: #393f4d; */
+/* } */
+/*  */
+/* .footer p { */
+  /* font-size: 13px; */
+  /* font-weight: normal;   */
+/* } */
+/*  */
